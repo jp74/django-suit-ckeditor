@@ -14,7 +14,7 @@ class CKEditorWidget(Textarea):
             'all': ('suit-ckeditor/ckeditor.css',)
         }
         js = ('suit-ckeditor/ckeditor/ckeditor.js',
-            'suit-ckeditor/suit-ckeditor.js',)
+              'suit-ckeditor/suit-ckeditor.js',)
 
     def __init__(self, attrs=None, editor_options=None):
         super(CKEditorWidget, self).__init__(attrs)
@@ -22,8 +22,8 @@ class CKEditorWidget(Textarea):
 
 
     def render(self, name, value, attrs=None):
-        attrs.update({"data-type":"ckeditortype",
-                              "data-processed":"0",
-                              "data-config": json.dumps(self.editor_options) })
+        attrs.update({"data-type": "ckeditortype",
+                      "data-processed": "0",
+                      "data-config": json.dumps(self.editor_options)})
         output = super(CKEditorWidget, self).render(name, value, attrs)
         return output
