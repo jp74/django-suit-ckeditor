@@ -18,8 +18,8 @@ Build Status
 
 Django Suit CKeditor app uses Travis CI to perform tests on different Django and Python versions.
 
-.. |master| image:: https://travis-ci.org/darklow/django-suit-ckeditor.png?branch=master
+.. |master| image:: https://travis-ci.org/jp74/django-suit-ckeditor.png?branch=master
    :alt: Build Status - master branch
-   :target: http://travis-ci.org/darklow/django-suit-ckeditor
+   :target: http://travis-ci.org/jp74/django-suit-ckeditor
 
 |master|
