@@ -2,3 +2,18 @@ input.cke_dialog_ui_input_text, input.cke_dialog_ui_input_password {
 	height: 25px;
 	margin-bottom: 0;
 }
+
+.form-horizontal .inline-related .cke_reset span {
+	display: inline;
+}
+
+.form-horizontal .inline-related span.cke_voice_label,
+.form-horizontal .inline-related span.cke_button_label {
+	display: none;
+}
+
+.form-horizontal .inline-related span.cke_top,
+.form-horizontal .inline-related span.cke_contents,
+.form-horizontal .inline-related span.cke_bottom {
+	display: block;
+}
